@@ -1,0 +1,26 @@
+{
+  "name": "juiceboxcode-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JuiceB0xC0de/juiceboxcode-site.git"
+  },
+  "keywords": [],
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/JuiceB0xC0de/juiceboxcode-site/issues"
+  },
+  "homepage": "https://github.com/JuiceB0xC0de/juiceboxcode-site#readme",
+  "devDependencies": {
+    "wrangler": "^4.149.0"
+  },
+  "allowScripts": {
+    "esbuild@0.28.2": true,
+    "workerd@1.20261006.1": true
+  }
+}
