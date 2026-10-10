@@ -45,6 +45,11 @@ figure {
 }
 figcaption { padding: 16px; font-size: 11px; letter-spacing: .04em; }
 
+/* Square brand artwork */
+main figure.brand-panel { aspect-ratio: 1 / 1; }
+main figure.brand-panel img { object-fit: contain; }
+#monochrome-panel { border: 0; }
+
 /* Scroll-linked panel zoom */
 main { padding-bottom: max(180px, 50vh); }
 main figure {
